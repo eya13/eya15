@@ -17,8 +17,8 @@ public class Foyer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long idFoyer;
-    String nomFoyer;
-    long capaciteFoyer;
+    String nomF;
+    long capaciteF;
     //ASSOCIATIONS
     @OneToOne( mappedBy = "foyer")
     @JsonIgnore
