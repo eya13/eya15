@@ -16,8 +16,8 @@ public class Etudiant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     long idEtudiant;
-    String nomEt;
-    String prenomEt;
+    String nomEtudiant;
+    String prenomEtudiant;
     long cin;
     String ecole;
     Date dateNaissance;
